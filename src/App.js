@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CardList from "./components/CardList";
+import { robots } from "./components/robots";
+import React, { useState } from "react";
+import SearchBox from "./components/SearchBox";
+export default function App() {
+  const [searchInfo, setSearchInfo] = useState("");
+  const [robotsList, setRobotsList] = useState(robots);
 
-function App() {
+  const onSearchChange = (event) => {
+    const filteredRobots = robots.filter((robot) => {
+      return robot.name
+        .toLowerCase()
+        .includes(event.target.value.toLowerCase());
+    });
+    setRobotsList(filteredRobots);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="tc">
+      <SearchBox searchChange={onSearchChange} />
+      <CardList robots={robotsList} />
     </div>
   );
 }
 
-export default App;
+//thats a comment
