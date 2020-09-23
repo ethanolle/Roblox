@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/roblox/static/css/main.a857f494.chunk.css",
+    "main.js": "/roblox/static/js/main.e22fc2a8.chunk.js",
+    "main.js.map": "/roblox/static/js/main.e22fc2a8.chunk.js.map",
+    "runtime-main.js": "/roblox/static/js/runtime-main.119c3064.js",
+    "runtime-main.js.map": "/roblox/static/js/runtime-main.119c3064.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/roblox/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.75e1e303.chunk.js": "/roblox/static/js/2.75e1e303.chunk.js",
+    "static/js/2.75e1e303.chunk.js.map": "/roblox/static/js/2.75e1e303.chunk.js.map",
+    "index.html": "/roblox/index.html",
+    "precache-manifest.0cd103824cfe0418b61c491b08f04949.js": "/roblox/precache-manifest.0cd103824cfe0418b61c491b08f04949.js",
+    "service-worker.js": "/roblox/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/roblox/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.a857f494.chunk.css.map": "/roblox/static/css/main.a857f494.chunk.css.map",
+    "static/js/2.75e1e303.chunk.js.LICENSE.txt": "/roblox/static/js/2.75e1e303.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.119c3064.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.75e1e303.chunk.js",
+    "static/css/main.a857f494.chunk.css",
+    "static/js/main.e22fc2a8.chunk.js"
+  ]
+}
