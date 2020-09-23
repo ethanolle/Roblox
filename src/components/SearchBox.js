@@ -1,4 +1,5 @@
 import React from "react";
+import "./SearchBox.css";
 
 export default function SearchBox({ searchfield, searchChange }) {
   return (
